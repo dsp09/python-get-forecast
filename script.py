@@ -29,6 +29,7 @@ def get_forecast( city='Pittsburgh' ):
     latitude = location.latitude
     longitude = location.longitude
     URL = f'https://api.weather.gov/points/{latitude},{longitude}'
+    
     response = requests.get(URL)
     response_json = response.json()
 
