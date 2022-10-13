@@ -2,7 +2,6 @@ from pathlib import Path
 from geopy.geocoders import Nominatim
 import requests
 import pandas as pd
-import pycodestyle
 
 def CityNotFoundError():
   print("Latitude and Longitude for this city does not exist")
