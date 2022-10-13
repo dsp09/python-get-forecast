@@ -1,5 +1,5 @@
-![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/build.yml/badge.svg)
-![Status](https://github.com/icaoberg/python-get-forecast/actions/workflows/pretty.yml/badge.svg)
+![Status](https://github.com/dsp09/python-get-forecast/actions/workflows/build.yml/badge.svg)
+![Status](https://github.com/dsp09/python-get-forecast/actions/workflows/pretty.yml/badge.svg)
 # Pittsburgh Nightly Forecast
 
 |    | Start Date                | End Date                  | Forecast                                                                                                                                                                                                                                                            |
