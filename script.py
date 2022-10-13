@@ -42,7 +42,7 @@ def get_forecast( city='Pittsburgh' ):
     forecast = forecast_response_json['properties']['periods']
     forecast_tonight = search_for_tonight(forecast)
 
-    return forecast_tonight[0]['startTime'], forecast_tonight[0]['endTime'], forecast_tonight[0]['detailedForecast']
+    return {'startTime':forecast_tonight[0]['startTime'], 'endTime':forecast_tonight[0]['endTime'], 'detailedForecast':forecast_tonight[0]['detailedForecast']}
     raise NotImplementedError()
 
 def main():
